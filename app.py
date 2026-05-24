@@ -43,7 +43,7 @@ translator = Translator()
 # =========================
 # NEWS API
 # =========================
-API_KEY = "YOUR_NEWS_API_KEY"
+API_KEY = "d584ca62569746e9ba00db2d05f94221"
 
 def fetch_latest_news(query):
     url = f"https://newsapi.org/v2/everything?q={query}&apiKey={API_KEY}"
